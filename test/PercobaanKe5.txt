@@ -1,0 +1,13 @@
+Malam_dan_Misterinya, Flora_Fauna_Dan_Bukan_Keduanya, Ilmu_Non_Gaib.
+Siang_dan_keramaiannya, Malam_dan_Misterinya, Bahasa_bahasa_kuno.
+Ilmu_Non_Gaib, Bilangan_Struktur_Ruang_dan_Perubahan.
+Flora_Fauna_Dan_Bukan_Keduanya.
+Olahraga.
+Sejarah_dan_Catatan_Lama, Ilmu_Non_Gaib.
+Bilangan_Struktur_Ruang_dan_Perubahan.
+Bahasa_bahasa_kuno, Sejarah_dan_Catatan_Lama, Bahasa_Klan_Bulan.
+Bahasa_Klan_Bulan, Sejarah_dan_Catatan_Lama.
+Teknologi_dan_Rekayasa, Ilmu_Non_Gaib, Kimia_dan_Keindahan_di_Dalamnya, Bilangan_Struktur_Ruang_dan_Perubahan.
+Kimia_dan_Keindahan_di_Dalamnya, Bilangan_Struktur_Ruang_dan_Perubahan.
+Tata_Tulis_Scriptie, Siang_dan_keramaiannya, Bahasa_Klan_Bulan, Teknologi_dan_Rekayasa, Bahasa_bahasa_kuno.
+Etos_Kerja_dan_Dunia_Pekerjaan, Tata_Tulis_Scriptie.

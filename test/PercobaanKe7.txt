@@ -1,0 +1,10 @@
+Pelajaran_A.
+Pelajaran_B, Pelajaran_A.
+Pelajaran_C, Pelajaran_B.
+Pelajaran_D, Pelajaran_C.
+Pelajaran_E, Pelajaran_D.
+Pelajaran_F, Pelajaran_E.
+Pelajaran_G, Pelajaran_F.
+Pelajaran_H, Pelajaran_G.
+Pelajaran_I, Pelajaran_H.
+Pelajaran_J, Pelajaran_I.

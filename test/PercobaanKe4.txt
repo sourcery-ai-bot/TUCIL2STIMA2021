@@ -1,0 +1,11 @@
+Algoritma_dan_Struktur_Data, Dasar_Pemrograman.
+Aljabar_dan_Geometri, Kalkulus_2A, Dasar_Pemrograman.
+Paradima_Berorientasi_Objek, Algoritma_dan_Struktur_Data, TBFO.
+TBFO, Fisika_Dasar_2A, Kalkulus_2A, Dasar_Pemrograman.
+Strategi_Algortima, TBFO, Algoritma_dan_Struktur_Data, Kalkulus_2A.
+Kalkulus_1A.
+Kalkulus_2A, Kalkulus_1A.
+Fisika_Dasar_1A.
+Fisika_Dasar_2A, Fisika_Dasar_1A.
+Pengantar_Komputasi.
+Dasar_Pemrograman, Pengantar_Komputasi.

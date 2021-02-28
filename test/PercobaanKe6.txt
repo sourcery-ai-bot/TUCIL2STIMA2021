@@ -1,0 +1,10 @@
+Matkul5, Matkul3, Matkul1.
+Matkul6, Matkul4, Matkul2.
+Matkul7, Matkul6, Matkul3, Matkul2.
+Matkul2.
+Matkul3, Matkul2.
+Matkul4, Matkul1.
+Matkul8, Matkul6, Matkul3, Matkul2, Matkul1.
+Matkul9, Matkul8.
+Matkul10, Matkul9.
+Matkul1.

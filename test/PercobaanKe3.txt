@@ -1,0 +1,10 @@
+Pembangunan_Perdesaan, Perencanaan_Wilayah.
+Biogeografi, Pengantar_Ekologi.
+Pendidikan_Lingkungan_Hidup, Biogeografi.
+Analisis_Mengenai_Dampak_Lingkungan, Biogeografi.
+Metode_Penelitian_Geografi, Pendidikan_Lingkungan_Hidup, Analisis_Mengenai_Dampak_Lingkungan, Pembangunan_Perdesaan.
+Pengantar_Geografi.
+Pengantar_Ekologi, Pengantar_Geografi.
+Geografi_Desa_Kota, Pengantar_Geografi.
+Geografi_Pembangunan, Pengantar_Geografi.
+Perencanaan_Wilayah, Geografi_Desa_Kota, Geografi_Pembangunan.
