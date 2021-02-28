@@ -1,5 +1,6 @@
-from Simpul import *
-from Sisi import *
+import importlib
+SIMPUL = importlib.import_module("13519029-Simpul")
+SISI = importlib.import_module("13519029-Sisi")
 
 class Graf:
     # Atribut
@@ -15,7 +16,7 @@ class Graf:
     def InputSimpul(self, namaSimpul):
         # Prosedur yang menambahkan simpul ke graf jika simpul belum ada di graf.
         if self.CariSimpulDgnNama(namaSimpul) == None:
-            simpul = Simpul(namaSimpul)
+            simpul = SIMPUL.Simpul(namaSimpul)
             self.simpul2.append(simpul)
             self.jmlSimpul += 1
     def InputSisi(self, namaSimpulAwal, namaSimpulAkhir):
@@ -24,7 +25,7 @@ class Graf:
         simpulAwal = self.CariSimpulDgnNama(namaSimpulAwal)
         simpulAkhir = self.CariSimpulDgnNama(namaSimpulAkhir)
         if (simpulAwal != None and simpulAkhir != None):
-            sisi = Sisi(simpulAwal,simpulAkhir)
+            sisi = SISI.Sisi(simpulAwal,simpulAkhir)
             self.sisi2.append(sisi)
             self.jmlSisi += 1
         else:

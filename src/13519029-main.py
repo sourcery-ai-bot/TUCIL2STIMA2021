@@ -1,8 +1,9 @@
-from Graf import *
-from FungsiLain2 import *
+import importlib  
+GRAF = importlib.import_module("13519029-Graf")
+FUNGSILAIN2 = importlib.import_module("13519029-FungsiLain2")
 
 # INISIALISASI
-graf = Graf()
+graf = GRAF.Graf()
 nomorSmt = 0
 
 # ALGORITMA UTAMA
@@ -22,4 +23,4 @@ while graf.simpul2 != [] and nomorSmt < 8:
     graf.HapusSemuaSimpul(listMatkulSemIni)
 
     # print matkul yang dapat diambil semester ini.
-    printMatkulSmtIni(nomorSmt, listMatkulSemIni)
+    FUNGSILAIN2.printMatkulSmtIni(nomorSmt, listMatkulSemIni)
