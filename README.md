@@ -26,6 +26,6 @@ CARA MENGGUNAKAN PROGRAM
 IDENTITAS PEMBUAT
 =================
 
-Nama	: Nicholas Chen
+Nama	  : Nicholas Chen
 NIM	    : 13519029
 Kelas   : K01

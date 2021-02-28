@@ -9,3 +9,12 @@ def printMatkulSmtIni(nomorSmt, listNamaMatkul):
         else:
             print(f", {matkul}", end="")
     print(".")
+
+def printMenu():
+    # Prosedur yang mencetak menu program
+    print("")
+    print("Daftar Perintah:")
+    print("1. Lihat simpul dan sisi dari graf")
+    print("2. Lihat hasil mata kuliah")
+    print("3. Lihat ReadMe")
+    print("4. Exit")

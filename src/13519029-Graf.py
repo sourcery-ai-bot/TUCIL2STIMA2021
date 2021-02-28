@@ -87,11 +87,15 @@ class Graf:
     def PrintGraf(self):
         # Prosedur yang mencetak isi graf ke layar.
         print(f"Banyak simpul : {self.jmlSimpul}")
+        print(f"Banyak sisi : {self.jmlSisi}")
+        print("")
+        print("Daftar Simpul:")
         for i in self.simpul2:
-            print(i.nama)
-        print(f"Sisi : {self.jmlSisi}")
+            print(f"-> {i.nama}")
+        print("")
+        print("Daftar Sisi:")
         for i in self.sisi2:
-            print(i.simpulAwal.nama + "-" + i.simpulAkhir.nama)
+            print(f"{i.simpulAwal.nama} --> {i.simpulAkhir.nama}")
     def IsiGrafDariFile(self, file):
         # Prosedur yang mengisi graf dengan data mata kuliah dari file.
         namaMatkul = ""
