@@ -103,17 +103,13 @@ class Graf:
         for baris in fileperbaris:
             namaSimpulPertama = ""
             for huruf in baris:
-                if namaSimpulPertama == "": 
-                    if huruf != ',' and huruf != '.' and huruf != ' ' and huruf != '\n':
-                        namaMatkul += huruf
-                    elif huruf == ',' or huruf == '.':
-                        namaSimpulPertama = namaMatkul
-                        self.InputSimpul(namaMatkul)
-                        namaMatkul = ""
-                else:
-                    if huruf != ',' and huruf != '.' and huruf != ' ' and huruf != '\n':
-                        namaMatkul += huruf
-                    elif huruf == ',' or huruf == '.':
-                        self.InputSimpul(namaMatkul)
-                        self.InputSisi(namaMatkul,namaSimpulPertama)
-                        namaMatkul = ""
+                if huruf not in [',', '.', ' ', '\n']:
+                    namaMatkul += huruf
+                elif namaSimpulPertama == "" and huruf in [',', '.']:
+                    namaSimpulPertama = namaMatkul
+                    self.InputSimpul(namaMatkul)
+                    namaMatkul = ""
+                elif huruf in [',', '.']:
+                    self.InputSimpul(namaMatkul)
+                    self.InputSisi(namaMatkul,namaSimpulPertama)
+                    namaMatkul = ""
